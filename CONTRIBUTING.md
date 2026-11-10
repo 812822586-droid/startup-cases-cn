@@ -1,0 +1,51 @@
+# 贡献指南 · Contributing
+
+感谢你愿意补充案例！本项目欢迎任何人提交**有公开来源**的中文案例。
+
+## 怎么贡献一个案例
+
+1. Fork 本仓库
+2. 编辑 `cases-data.js`（并同步 `cases.json`），在数组末尾追加一条：
+
+```js
+{
+  "id": "c999",                 // 唯一编号，不要和已有重复
+  "name": "项目名称",
+  "emoji": "📈",                // 只用 emoji，不要放公司 Logo / 截图
+  "cat": "软件/SaaS",           // 使用已有类别，或提 Issue 申请新类别
+  "tagline": "一句话简介（自己写）",
+  "founder": "创始人公开名称",
+  "region": "国家/地区",
+  "year": 2020,                 // 起步年份，不确定就写 null
+  "team": "1 人",
+  "rev": 12000,                 // 自报月收入（美元数字）；没有可核实的月收入就写 null
+  "rev_note": "创始人自报 · 2024 年 5 月 · MRR 约 $12,000（官方博客）。",  // 必填：口径 + 日期 + 谁说的
+  "cost": "启动成本说明",
+  "costt": "几乎为零",           // 几乎为零 / 小额 / 较大 / 未公开
+  "ch": ["获客渠道1", "渠道2"],
+  "pricing": "收费方式",
+  "stack": ["工具1", "工具2"],
+  "why": "起因", "start": "怎么起步", "acq": "怎么获客", "charge": "怎么收费",
+  "fit": "中",                  // 适合国内借鉴吗：高 / 中 / 低
+  "fitn": "一两句诚实的提醒（风险、国内差异）",
+  "code": "需要",               // 需要 / 不需要
+  "src": [["来源标题", "https://公开来源链接"]]   // 至少 1 条，优先创始人自己/官方来源
+}
+```
+
+3. 本地用浏览器打开 `index.html`，确认能搜到、弹窗正常
+4. 运行 `python scripts/check_sources.py` 确认来源链接能打开
+5. 提交 Pull Request，简要说明案例和来源
+
+## 质量与版权要求（很重要）
+
+- **原创改写**：所有文字用你自己的话写，不要复制、翻译任何网站的文章、访谈、数据库条目或描述；事实（产品、年份、自报收入、渠道等）可以引用，但要用自己的表述。
+- **有来源**：每个案例至少 1 个公开来源链接；优先创始人官网/博客/公开数据页，其次新闻、维基百科。链接失效（404）的案例会被移除。
+- **收入要标口径**：写清“谁说的、哪年、什么口径（MRR / 年收入 / 累计）”，标明是自报；**找不到来源的数字不要写，不要估算、不要编造**。
+- **不夸大**：不要出现“月入十万轻松做到”之类的承诺；失败案例和风险提醒同样欢迎。
+- **不使用 Logo / 产品截图**，不照搬其他站点的页面设计。
+- **合规**：不要提交诱导违法、传销、虚假宣传类的内容。
+
+## English
+
+Add a case object to `cases-data.js` / `cases.json` with at least one public source URL, a clearly labelled revenue basis (who said it, when, MRR vs. annual vs. cumulative — or `null` if unknown), and original Chinese text (no copying/translating of other sites). Run `python scripts/check_sources.py` and open `index.html` locally before opening a PR.
