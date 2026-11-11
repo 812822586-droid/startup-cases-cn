@@ -29,13 +29,24 @@
   "fit": "中",                  // 适合国内借鉴吗：高 / 中 / 低
   "fitn": "一两句诚实的提醒（风险、国内差异）",
   "code": "需要",               // 需要 / 不需要
-  "src": [["来源标题", "https://公开来源链接"]]   // 至少 1 条，优先创始人自己/官方来源
+  "src": [["来源标题", "https://公开来源链接"]],  // 至少 1 条，优先创始人自己/官方来源
+  "biz": "职业差",              // 商业结构：信息差 / 流程差 / 职业差 / 其他
+  "cust": "客户是谁（一句话）",
+  "diff": "中",                 // 国内复制难度：低 / 中 / 高
+  "diffn": "一句话说明理由（合规、资金、平台规则、竞争等）"
 }
 ```
 
 3. 本地用浏览器打开 `index.html`，确认能搜到、弹窗正常
 4. 运行 `python scripts/check_sources.py` 确认来源链接能打开
 5. 提交 Pull Request，简要说明案例和来源
+
+### 商业结构怎么选
+
+- **信息差**：把分散、不透明的信息整理成客户愿意付钱的决策产品（榜单、数据库、评测、订阅分析）。
+- **流程差**：把企业或个人的重复劳动自动化/标准化，按项目或按月收费。
+- **职业差**：为某一个具体职业或人群做专属的工具、模板、课程和工作流程。
+- **其他**：以上都不是（如游戏、消费品牌、餐饮）。拿不准就选“其他”，不要硬套。
 
 ## 质量与版权要求（很重要）
 
@@ -48,4 +59,4 @@
 
 ## English
 
-Add a case object to `cases-data.js` / `cases.json` with at least one public source URL, a clearly labelled revenue basis (who said it, when, MRR vs. annual vs. cumulative — or `null` if unknown), and original Chinese text (no copying/translating of other sites). Run `python scripts/check_sources.py` and open `index.html` locally before opening a PR.
+Add a case object to `cases-data.js` / `cases.json` with at least one public source URL, a clearly labelled revenue basis (who said it, when, MRR vs. annual vs. cumulative — or `null` if unknown), and original Chinese text (no copying/translating of other sites), plus `biz` (信息差/流程差/职业差/其他), `cust`, `diff` (低/中/高) and `diffn`. Run `python scripts/check_sources.py` and open `index.html` locally before opening a PR.

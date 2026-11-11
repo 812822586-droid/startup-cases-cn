@@ -41,6 +41,48 @@ with sync_playwright() as p:
     pg.click('.chip[data-cat="游戏与应用"]'); n=pg.locator(".card").count()
     check("category chip", n==len([d for d in data if d['cat']=="游戏与应用"]), str(n))
     pg.click('.chip[data-cat="全部"]')
+    # 商业结构 chips (added 2026-11-10)
+    bizs = ["信息差","流程差","职业差","其他"]
+    check("biz chip row has 5 chips", pg.locator("#bizBar .chip").count()==5)
+    check("all cases have biz/cust/diff/diffn", all(d.get(k) for d in data for k in ("biz","cust","diff","diffn")))
+    check("biz values valid", {d["biz"] for d in data}<=set(bizs))
+    for bz in bizs:
+        pg.click(f'#bizBar .chip[data-biz="{bz}"]')
+        exp = len([d for d in data if d["biz"]==bz])
+        shown = pg.inner_text("#shownMeta")
+        check(f"biz chip {bz}", shown.endswith(f"/ {exp} 个"), shown)
+        check(f"biz chip {bz} chip count", f"{exp}" in pg.inner_text(f'#bizBar .chip[data-biz="{bz}"]'))
+    pg.click('#bizBar .chip[data-biz="职业差"]')
+    check("biz help text shown", "职业" in pg.inner_text("#bizHelp") and pg.locator("#bizHelp").is_visible())
+    # biz + category combine
+    pg.click('.chip[data-cat="软件/SaaS"]')
+    exp = len([d for d in data if d["biz"]=="职业差" and d["cat"]=="软件/SaaS"])
+    check("biz + category combine", pg.inner_text("#shownMeta").endswith(f"/ {exp} 个"), pg.inner_text("#shownMeta"))
+    pg.click('.chip[data-cat="全部"]')
+    # difficulty filter
+    pg.click('#bizBar .chip[data-biz="全部"]')
+    for lv in ("低","中","高"):
+        pg.select_option("#fDiff", lv); exp = len([d for d in data if d["diff"]==lv])
+        check(f"filter 国内复制难度={lv}", pg.inner_text("#shownMeta").endswith(f"/ {exp} 个"), pg.inner_text("#shownMeta"))
+    pg.select_option("#fDiff","低"); pg.click('#bizBar .chip[data-biz="流程差"]')
+    exp = len([d for d in data if d["diff"]=="低" and d["biz"]=="流程差"])
+    check("biz + difficulty combine", pg.inner_text("#shownMeta").endswith(f"/ {exp} 个"), pg.inner_text("#shownMeta"))
+    # new cases: searchable, modal shows biz / cust / difficulty
+    pg.click("#resetBtn")
+    check("reset clears biz + diff", pg.inner_text("#shownMeta").endswith(f"/ {len(data)} 个") and pg.input_value("#fDiff")=="")
+    newc = [d for d in data if int(d["id"][1:])>=112]
+    check("10 new cases present", len(newc)==10, str(len(newc)))
+    pg.fill("#searchInput","FeedbackPanda"); check("search new case", pg.locator(".card").count()==1)
+    pg.locator('[data-open]').first.click(); pg.wait_for_selector("#modal.open")
+    mt = pg.inner_text("#modalKv")
+    check("modal shows 商业结构/客户群/国内复制难度", "商业结构" in mt and "职业差" in mt and "客户群" in mt and "国内复制难度" in mt, mt[-160:])
+    check("modal diff reason visible", pg.locator("#modalDiff").is_visible() and "—" in pg.inner_text("#modalDiff"))
+    pg.screenshot(path=str(ROOT/"screenshots/modal-biz.png"))
+    pg.keyboard.press("Escape"); pg.fill("#searchInput","")
+    pg.fill("#searchInput","信息差"); check("search by biz keyword", pg.locator(".card").count()>=1)
+    pg.fill("#searchInput","")
+    # every case has at least one source link
+    check("every case has a source", all(d["src"] for d in data))
     # filters
     pg.select_option("#fCode","不需要"); n=pg.locator(".card").count(); check("filter 不需要写代码", n==min(24,len([d for d in data if d["code"]=="不需要"])), str(n))
     pg.click("#resetBtn")

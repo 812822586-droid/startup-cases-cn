@@ -47,7 +47,11 @@ window.CASE_DATA = [
     "爱沙尼亚商业登记公开财务数据（第三方整理）",
     "https://infokogum.ee/en/estonia/company/14709274-ou-plausible-insights/financials"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "在意隐私、不想用大厂统计的网站站长和小团队",
+  "diff": "高",
+  "diffn": "国内已有百度统计、友盟等免费工具，且数据出境与备案要求多，付费空间小。"
  },
  {
   "id": "c002",
@@ -90,7 +94,11 @@ window.CASE_DATA = [
     "Fathom 官网",
     "https://usefathom.com/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "在意隐私的网站站长和小团队",
+  "diff": "高",
+  "diffn": "同类免费工具多，国内合规与服务器要求高，付费空间小。"
  },
  {
   "id": "c003",
@@ -136,7 +144,11 @@ window.CASE_DATA = [
     "Sand Hill Road 对 Justin 的访谈",
     "https://words.sandhillroad.io/2021/05/24/bootstrapping-from-zero-to-1m-in-arr-with-justin-jackson-mega-maker-of-transistor-fm/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "做播客的个人和小公司",
+  "diff": "中",
+  "diffn": "需要稳定的存储与带宽，且国内平台自带发布入口，独立收费的空间较窄（编辑判断）。"
  },
  {
   "id": "c004",
@@ -173,7 +185,11 @@ window.CASE_DATA = [
     "Buffer 官方透明页（实时数据）",
     "https://buffer.com/transparency"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "社交媒体运营者和小企业",
+  "diff": "高",
+  "diffn": "国内主流平台对第三方定时发布的开放有限，难做通用排期工具。"
  },
  {
   "id": "c005",
@@ -219,7 +235,11 @@ window.CASE_DATA = [
     "Ghost 关于页（实时指标）",
     "https://ghost.org/about/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "独立写作者和小型出版者",
+  "diff": "高",
+  "diffn": "开源平台要自己运维服务器；国内写作者更常用公众号、小报童等现成渠道。"
  },
  {
   "id": "c006",
@@ -260,7 +280,11 @@ window.CASE_DATA = [
     "Indie Hackers 播客：AJ 谈 Carrd",
     "https://www.indiehackers.com/podcast/087-aj-of-carrd"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "个人和小商家的一页式网站需求",
+  "diff": "高",
+  "diffn": "国内建站要备案，主要入口是微信和小程序，需求形态不同。"
  },
  {
   "id": "c007",
@@ -297,7 +321,11 @@ window.CASE_DATA = [
     "Gumroad 关于页",
     "https://gumroad.com/about"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "想直接卖作品的创作者",
+  "diff": "高",
+  "diffn": "做平台要处理支付、发票和内容审核，门槛远高于一个人的小项目。"
  },
  {
   "id": "c008",
@@ -334,7 +362,11 @@ window.CASE_DATA = [
     "Indie Hackers：把 SaaS 做到 $15,000 MRR 的 AMA",
     "https://www.indiehackers.com/post/i-bootstrapped-my-saas-to-15-000-mrr-over-3-years-ama-2a81b59993"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "需要批量出图的营销和电商团队",
+  "diff": "中",
+  "diffn": "技术上一个人可做，但要适配中文字体和国内模板习惯。"
  },
  {
   "id": "c009",
@@ -371,7 +403,11 @@ window.CASE_DATA = [
     "Indie Hackers 报道：Tibo 出售两款产品（部分内容需订阅）",
     "https://www.indiehackers.com/post/tech/heres-how-tibo-sold-two-products-for-8m-and-why-he-ll-never-do-it-again-iwykhfENoZqJgRLU33zv"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "在推特/LinkedIn 做个人品牌的创作者",
+  "diff": "高",
+  "diffn": "依赖海外社媒接口；国内同类工具受小红书、公众号平台限制。"
  },
  {
   "id": "c010",
@@ -415,7 +451,11 @@ window.CASE_DATA = [
     "Pieter Levels 个人网站",
     "https://levels.io/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "全球数字游民和独立开发者",
+  "diff": "中",
+  "diffn": "一个人可以做，但需要技术能力和海外支付渠道。"
  },
  {
   "id": "c011",
@@ -453,7 +493,11 @@ window.CASE_DATA = [
     "Marc Lou 个人网站",
     "https://marclou.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "想快速上线产品的独立开发者",
+  "diff": "中",
+  "diffn": "面向开发者的模板，国内买单人群较小且习惯用开源免费资源。"
  },
  {
   "id": "c012",
@@ -491,7 +535,11 @@ window.CASE_DATA = [
     "Tony Dinh 新闻信：2025 年 10 月更新",
     "https://news.tonydinh.com/p/oct-2025-updates-code-money-and-travel"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "经常使用大模型的开发者和重度用户",
+  "diff": "高",
+  "diffn": "国内需接入合规的模型服务，海外接口访问和支付都有限制。"
  },
  {
   "id": "c013",
@@ -532,7 +580,11 @@ window.CASE_DATA = [
     "Wix 官方新闻稿",
     "https://www.wix.com/press-room/home/post/wix-further-expands-into-vibe-coding-with-acquisition-of-base44-a-hyper-growth-startup-that-simplif"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "不会写代码、想做内部工具的人",
+  "diff": "高",
+  "diffn": "需要大量模型调用成本和工程团队，不是一个人能起步的。"
  },
  {
   "id": "c014",
@@ -573,7 +625,11 @@ window.CASE_DATA = [
     "TechCrunch：MyFitnessPal 收购 Cal AI",
     "https://techcrunch.com/2026/03/02/myfitnesspal-has-acquired-cal-ai-the-viral-calorie-app-built-by-teens/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想控制饮食的个人用户",
+  "diff": "高",
+  "diffn": "要做食物识别和本地食物库，获客成本高，竞品多。"
  },
  {
   "id": "c015",
@@ -610,7 +666,11 @@ window.CASE_DATA = [
     "Damon Chen 的 LinkedIn 帖子（$10 万 MRR）",
     "https://www.linkedin.com/posts/damengchen_100k-mrr-now-with-testimonialto-and-pdfai-activity-7119880068289478656-GhBW"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "需要收集客户好评的小企业与网课老师",
+  "diff": "中",
+  "diffn": "工具本身简单，难点是让国内客户愿意付费并接入微信等渠道。"
  },
  {
   "id": "c016",
@@ -651,7 +711,11 @@ window.CASE_DATA = [
     "Lenny's Newsletter 官网",
     "https://www.lennysnewsletter.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "产品经理和增长从业者",
+  "diff": "中",
+  "diffn": "付费订阅可借助小报童等平台，但需要长期积累的专业口碑。"
  },
  {
   "id": "c017",
@@ -688,7 +752,11 @@ window.CASE_DATA = [
     "维基百科：Morning Brew",
     "https://en.wikipedia.org/wiki/Morning_Brew"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "想快速了解财经的年轻上班族",
+  "diff": "高",
+  "diffn": "靠广告变现需要规模；国内做资讯类内容要留意资质要求。"
  },
  {
   "id": "c018",
@@ -725,7 +793,11 @@ window.CASE_DATA = [
     "The Pragmatic Engineer 关于页",
     "https://newsletter.pragmaticengineer.com/about"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "软件工程师",
+  "diff": "中",
+  "diffn": "需要深厚行业经验和人脉才能写出让人付费的内容，中文程序员群体对订阅的付费意愿因人而异。"
  },
  {
   "id": "c019",
@@ -762,7 +834,11 @@ window.CASE_DATA = [
     "Stratechery 关于页",
     "https://stratechery.com/about/"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "关注科技行业的从业者和投资人",
+  "diff": "中",
+  "diffn": "靠个人分析能力和长期更新；国内可用公众号或小报童做同类订阅。"
  },
  {
   "id": "c020",
@@ -799,7 +875,11 @@ window.CASE_DATA = [
     "维基百科：Wirecutter",
     "https://en.wikipedia.org/wiki/Wirecutter_%28website%29"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "买东西前想看靠谱评测的人",
+  "diff": "高",
+  "diffn": "要买样机做长期测评；国内电商平台自带评价，购买链接分成也需合规披露。"
  },
  {
   "id": "c021",
@@ -836,7 +916,11 @@ window.CASE_DATA = [
     "维基百科：Product Hunt",
     "https://en.wikipedia.org/wiki/Product_Hunt"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "想发现新产品的产品人和创业者",
+  "diff": "中",
+  "diffn": "做社区容易，难的是长期保持高质量内容和活跃度。"
  },
  {
   "id": "c022",
@@ -873,7 +957,11 @@ window.CASE_DATA = [
     "维基百科：Unsplash",
     "https://en.wikipedia.org/wiki/Unsplash"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "需要免费图片的设计师和内容创作者",
+  "diff": "高",
+  "diffn": "图片版权、内容审核和带宽成本都高。"
  },
  {
   "id": "c023",
@@ -910,7 +998,11 @@ window.CASE_DATA = [
     "Indie Hackers 官网",
     "https://www.indiehackers.com/"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "独立创业者",
+  "diff": "中",
+  "diffn": "国内可做‘公开收入的小生意’社区，但真实收入数据很难拿到。"
  },
  {
   "id": "c024",
@@ -947,7 +1039,11 @@ window.CASE_DATA = [
     "Justin Welsh 官网",
     "https://www.justinwelsh.me/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想做‘一人公司’的人",
+  "diff": "中",
+  "diffn": "个人品牌需要长期积累；国内要留意宣传用语不夸大。"
  },
  {
   "id": "c025",
@@ -984,7 +1080,11 @@ window.CASE_DATA = [
     "Ali Abdaal 官网",
     "https://aliabdaal.com/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "学生和想提升效率的上班族",
+  "diff": "中",
+  "diffn": "靠个人影响力，难复制；国内可转化为 B 站、小红书内容加课程。"
  },
  {
   "id": "c026",
@@ -1021,7 +1121,11 @@ window.CASE_DATA = [
     "Forte Labs 官网",
     "https://fortelabs.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "知识工作者和需要整理笔记的人",
+  "diff": "中",
+  "diffn": "方法论 + 课程可做；难点是找到愿意付费的细分人群。"
  },
  {
   "id": "c027",
@@ -1058,7 +1162,11 @@ window.CASE_DATA = [
     "Small Bets 官网",
     "https://smallbets.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "想靠小项目独立谋生的开发者和创作者",
+  "diff": "中",
+  "diffn": "社区和课程可复制，但需要创始人本人有影响力和可信的成果。"
  },
  {
   "id": "c028",
@@ -1095,7 +1203,11 @@ window.CASE_DATA = [
     "Wes Bos 官网",
     "https://wesbos.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "想系统学前端的开发者",
+  "diff": "中",
+  "diffn": "国内技术课程竞争激烈，需要一个很窄的主题和强口碑。"
  },
  {
   "id": "c029",
@@ -1132,7 +1244,11 @@ window.CASE_DATA = [
     "Nathan Barry 官网",
     "https://nathanbarry.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "靠邮件做内容的创作者",
+  "diff": "高",
+  "diffn": "国内用户不爱看邮件，触达依赖微信生态，需重新设计产品。"
  },
  {
   "id": "c030",
@@ -1169,7 +1285,11 @@ window.CASE_DATA = [
     "Thomas Frank 官网",
     "https://thomasjfrank.com/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "用 Notion 管理学习与工作的人",
+  "diff": "低",
+  "diffn": "模板类产品一个人就能做，国内可放在小红书、知乎、淘宝/闲鱼等渠道，但需注意平台规则。"
  },
  {
   "id": "c031",
@@ -1206,7 +1326,11 @@ window.CASE_DATA = [
     "DesignJoy 官网",
     "https://designjoy.co/"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "需要稳定设计支持的创业公司和营销团队",
+  "diff": "低",
+  "diffn": "按月订阅、一次只处理一个需求，一个人就能起步；难点是稳定交付和边界管理。"
  },
  {
   "id": "c032",
@@ -1244,7 +1368,11 @@ window.CASE_DATA = [
     "Caleb Porzio：GitHub Sponsors 年入 10 万美元的做法",
     "https://calebporzio.com/i-just-hit-dollar-100000yr-on-github-sponsors-heres-how-i-did-it"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "开源项目的使用者和开发者",
+  "diff": "高",
+  "diffn": "国内开源赞助文化还不成熟，收入不稳定。"
  },
  {
   "id": "c033",
@@ -1281,7 +1409,11 @@ window.CASE_DATA = [
     "Adam Wathan：从开源副产品到百万美元业务",
     "https://adamwathan.me/tailwindcss-from-side-project-byproduct-to-multi-mullion-dollar-business/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "前端开发者和设计师",
+  "diff": "中",
+  "diffn": "免费开源 + 付费组件的路径可借鉴，需要很强的产品和设计能力。"
  },
  {
   "id": "c034",
@@ -1317,7 +1449,11 @@ window.CASE_DATA = [
     "维基百科：Sublime Text",
     "https://en.wikipedia.org/wiki/Sublime_Text"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "程序员",
+  "diff": "高",
+  "diffn": "桌面软件买断授权在国内很难收费，盗版严重。"
  },
  {
   "id": "c035",
@@ -1358,7 +1494,11 @@ window.CASE_DATA = [
     "Obsidian 价格",
     "https://obsidian.md/pricing"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "重度笔记用户",
+  "diff": "高",
+  "diffn": "核心软件免费、同步收费，需要长期开发，国内同类产品多。"
  },
  {
   "id": "c036",
@@ -1394,7 +1534,11 @@ window.CASE_DATA = [
     "Pinboard 关于",
     "https://pinboard.in/about/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "重度书签和资料收集者",
+  "diff": "高",
+  "diffn": "用户需求小众，国内平台自带收藏功能。"
  },
  {
   "id": "c037",
@@ -1430,7 +1574,11 @@ window.CASE_DATA = [
     "维基百科：Pixelmator",
     "https://en.wikipedia.org/wiki/Pixelmator"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "Mac 用户",
+  "diff": "高",
+  "diffn": "桌面软件竞争和盗版问题都严重。"
  },
  {
   "id": "c038",
@@ -1467,7 +1615,11 @@ window.CASE_DATA = [
     "维基百科：Instapaper",
     "https://en.wikipedia.org/wiki/Instapaper"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "读文章和听播客的个人用户",
+  "diff": "高",
+  "diffn": "个人开发的 App，国内要上架和备案，变现难。"
  },
  {
   "id": "c039",
@@ -1504,7 +1656,11 @@ window.CASE_DATA = [
     "维基百科：Photopea",
     "https://en.wikipedia.org/wiki/Photopea"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "设计师和学生",
+  "diff": "高",
+  "diffn": "国内已有大量免费在线设计和修图工具。"
  },
  {
   "id": "c040",
@@ -1541,7 +1697,11 @@ window.CASE_DATA = [
     "维基百科：itch.io",
     "https://en.wikipedia.org/wiki/Itch.io"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "独立游戏开发者",
+  "diff": "高",
+  "diffn": "国内游戏发行要考虑版号和内容审核，难做开放平台。"
  },
  {
   "id": "c041",
@@ -1577,7 +1737,11 @@ window.CASE_DATA = [
     "Lichess 关于",
     "https://lichess.org/about"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "国际象棋爱好者",
+  "diff": "高",
+  "diffn": "靠捐赠运营，国内规模和合规难以复制。"
  },
  {
   "id": "c042",
@@ -1614,7 +1778,11 @@ window.CASE_DATA = [
     "维基百科：Vue.js",
     "https://en.wikipedia.org/wiki/Vue.js"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "前端开发者",
+  "diff": "高",
+  "diffn": "国内开源赞助收入小，依赖企业赞助。"
  },
  {
   "id": "c043",
@@ -1651,7 +1819,11 @@ window.CASE_DATA = [
     "Simple Analytics 公开数据页",
     "https://simpleanalytics.com/open"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "在意隐私的网站站长",
+  "diff": "高",
+  "diffn": "同 Plausible，国内免费统计工具多。"
  },
  {
   "id": "c044",
@@ -1687,7 +1859,11 @@ window.CASE_DATA = [
     "维基百科：Mailchimp",
     "https://en.wikipedia.org/wiki/Mailchimp"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "小企业的邮件营销",
+  "diff": "高",
+  "diffn": "国内邮件营销触达差，客户更多用短信、企业微信。"
  },
  {
   "id": "c045",
@@ -1723,7 +1899,11 @@ window.CASE_DATA = [
     "37signals 关于",
     "https://37signals.com/about"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "小团队的项目管理",
+  "diff": "高",
+  "diffn": "国内飞书、钉钉等巨头竞争激烈。"
  },
  {
   "id": "c046",
@@ -1760,7 +1940,11 @@ window.CASE_DATA = [
     "维基百科：Atlassian",
     "https://en.wikipedia.org/wiki/Atlassian"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "软件开发团队",
+  "diff": "高",
+  "diffn": "要长期投入产品和生态，不适合个人起步。"
  },
  {
   "id": "c047",
@@ -1797,7 +1981,11 @@ window.CASE_DATA = [
     "维基百科：Shopify",
     "https://en.wikipedia.org/wiki/Shopify"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "想开网店的商家",
+  "diff": "高",
+  "diffn": "国内有有赞、微信小店等成熟平台。"
  },
  {
   "id": "c048",
@@ -1833,7 +2021,11 @@ window.CASE_DATA = [
     "维基百科：Plenty of Fish",
     "https://en.wikipedia.org/wiki/Plenty_of_Fish"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想交友的人",
+  "diff": "高",
+  "diffn": "交友类产品在合规和审核上要求高。"
  },
  {
   "id": "c049",
@@ -1869,7 +2061,11 @@ window.CASE_DATA = [
     "维基百科：Craigslist",
     "https://en.wikipedia.org/wiki/Craigslist"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "本地分类信息用户",
+  "diff": "高",
+  "diffn": "国内已有成熟的分类信息平台，且内容审核成本高。"
  },
  {
   "id": "c050",
@@ -1906,7 +2102,11 @@ window.CASE_DATA = [
     "维基百科：Yoast SEO",
     "https://en.wikipedia.org/wiki/Yoast"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "用 WordPress 做网站的站长",
+  "diff": "高",
+  "diffn": "国内 WordPress 站点相对少，搜索引擎规则也不同（编辑判断）。"
  },
  {
   "id": "c051",
@@ -1942,7 +2142,11 @@ window.CASE_DATA = [
     "维基百科：Midjourney",
     "https://en.wikipedia.org/wiki/Midjourney"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想用 AI 画图的创作者",
+  "diff": "高",
+  "diffn": "国内需要备案并解决算力和内容审核问题。"
  },
  {
   "id": "c052",
@@ -1979,7 +2183,11 @@ window.CASE_DATA = [
     "Indie Hackers：HeadshotPro 的 SEO 策略",
     "https://www.indiehackers.com/post/breaking-down-danny-postmas-seo-strategy-for-headshotpro-300k-in-1-year-fad0af94d2"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "需要职业形象照的上班族和求职者",
+  "diff": "高",
+  "diffn": "涉及人脸数据，国内合规要求高。"
  },
  {
   "id": "c053",
@@ -2015,7 +2223,11 @@ window.CASE_DATA = [
     "Snipaste 官网",
     "https://www.snipaste.com/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "经常截图和贴图的办公和设计人群",
+  "diff": "中",
+  "diffn": "个人开发者可做，但很难直接收费，更多靠赞助或增值版。"
  },
  {
   "id": "c054",
@@ -2052,7 +2264,11 @@ window.CASE_DATA = [
     "少数派",
     "https://sspai.com/about"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "数码和效率爱好者",
+  "diff": "高",
+  "diffn": "需要稳定的内容团队和社区运营能力。"
  },
  {
   "id": "c055",
@@ -2088,7 +2304,11 @@ window.CASE_DATA = [
     "小报童官网",
     "https://xiaobot.net/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "想把内容做成付费专栏的创作者",
+  "diff": "低",
+  "diffn": "作为作者开专栏门槛低；自己做类似平台则难度高。"
  },
  {
   "id": "c056",
@@ -2124,7 +2344,11 @@ window.CASE_DATA = [
     "Typora 官网",
     "https://typora.io/"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "写文档和笔记的人",
+  "diff": "中",
+  "diffn": "试用加买断可做，但国内买断软件的付费意愿偏低。"
  },
  {
   "id": "c057",
@@ -2160,7 +2384,11 @@ window.CASE_DATA = [
     "维基百科：Flappy Bird",
     "https://en.wikipedia.org/wiki/Flappy_Bird"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "手机游戏玩家",
+  "diff": "高",
+  "diffn": "爆红有偶然性，不是可复制的生意。"
  },
  {
   "id": "c058",
@@ -2197,7 +2425,11 @@ window.CASE_DATA = [
     "维基百科：Stardew Valley",
     "https://en.wikipedia.org/wiki/Stardew_Valley"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "模拟经营游戏玩家",
+  "diff": "高",
+  "diffn": "一个人开发数年，成功率低，周期很长。"
  },
  {
   "id": "c059",
@@ -2234,7 +2466,11 @@ window.CASE_DATA = [
     "维基百科：Minecraft",
     "https://en.wikipedia.org/wiki/Minecraft"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "沙盒游戏玩家",
+  "diff": "高",
+  "diffn": "属于极少数的爆款，不可复制。"
  },
  {
   "id": "c060",
@@ -2271,7 +2507,11 @@ window.CASE_DATA = [
     "维基百科：Undertale",
     "https://en.wikipedia.org/wiki/Undertale"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "剧情向游戏玩家",
+  "diff": "高",
+  "diffn": "众筹启动但成功靠创意，不可复制。"
  },
  {
   "id": "c061",
@@ -2308,7 +2548,11 @@ window.CASE_DATA = [
     "维基百科：Vampire Survivors",
     "https://en.wikipedia.org/wiki/Vampire_Survivors"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "动作肉鸽游戏玩家",
+  "diff": "高",
+  "diffn": "靠玩法创新和口碑，难以稳定复制。"
  },
  {
   "id": "c062",
@@ -2345,7 +2589,11 @@ window.CASE_DATA = [
     "维基百科：Balatro",
     "https://en.wikipedia.org/wiki/Balatro"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "纸牌策略游戏玩家",
+  "diff": "高",
+  "diffn": "单人开发的爆款，成功率低。"
  },
  {
   "id": "c063",
@@ -2382,7 +2630,11 @@ window.CASE_DATA = [
     "维基百科：Lethal Company",
     "https://en.wikipedia.org/wiki/Lethal_Company"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "喜欢联机恐怖游戏的玩家",
+  "diff": "高",
+  "diffn": "靠主播传播，偶然性大。"
  },
  {
   "id": "c064",
@@ -2419,7 +2671,11 @@ window.CASE_DATA = [
     "维基百科：Hollow Knight",
     "https://en.wikipedia.org/wiki/Hollow_Knight"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "动作冒险游戏玩家",
+  "diff": "高",
+  "diffn": "精品游戏需要几年开发和美术投入。"
  },
  {
   "id": "c065",
@@ -2456,7 +2712,11 @@ window.CASE_DATA = [
     "维基百科：Among Us",
     "https://en.wikipedia.org/wiki/Among_Us"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "联机社交游戏玩家",
+  "diff": "高",
+  "diffn": "爆红有偶然性，需要运营数年。"
  },
  {
   "id": "c066",
@@ -2493,7 +2753,11 @@ window.CASE_DATA = [
     "维基百科：Papers, Please",
     "https://en.wikipedia.org/wiki/Papers,_Please"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "喜欢独特玩法的游戏玩家",
+  "diff": "高",
+  "diffn": "创意驱动，不可复制。"
  },
  {
   "id": "c067",
@@ -2529,7 +2793,11 @@ window.CASE_DATA = [
     "维基百科：Wordle",
     "https://en.wikipedia.org/wiki/Wordle"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "喜欢每日小游戏的人",
+  "diff": "高",
+  "diffn": "创意小游戏的爆红不可预测。"
  },
  {
   "id": "c068",
@@ -2566,7 +2834,11 @@ window.CASE_DATA = [
     "维基百科（中文）：太吾绘卷",
     "https://zh.wikipedia.org/wiki/太吾绘卷"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "武侠沙盒游戏玩家",
+  "diff": "高",
+  "diffn": "要长期开发，且上线要走 Steam 或版号流程。"
  },
  {
   "id": "c069",
@@ -2603,7 +2875,11 @@ window.CASE_DATA = [
     "维基百科（中文）：鬼谷八荒",
     "https://zh.wikipedia.org/wiki/鬼谷八荒"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "修仙题材游戏玩家",
+  "diff": "高",
+  "diffn": "小团队开发周期长，竞争激烈。"
  },
  {
   "id": "c070",
@@ -2640,7 +2916,11 @@ window.CASE_DATA = [
     "维基百科（中文）：戴森球计划",
     "https://zh.wikipedia.org/wiki/戴森球计划"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "喜欢工厂建造的游戏玩家",
+  "diff": "高",
+  "diffn": "开发周期长，需要技术和策划能力。"
  },
  {
   "id": "c071",
@@ -2677,7 +2957,11 @@ window.CASE_DATA = [
     "维基百科：Spanx",
     "https://en.wikipedia.org/wiki/Spanx"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "女性内衣消费者",
+  "diff": "高",
+  "diffn": "需要供应链、资金和品牌投入。"
  },
  {
   "id": "c072",
@@ -2713,7 +2997,11 @@ window.CASE_DATA = [
     "维基百科：Dollar Shave Club",
     "https://en.wikipedia.org/wiki/Dollar_Shave_Club"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想订阅剃须刀的男性消费者",
+  "diff": "高",
+  "diffn": "订阅制需要供应链和物流，宣传视频只是起点。"
  },
  {
   "id": "c073",
@@ -2750,7 +3038,11 @@ window.CASE_DATA = [
     "维基百科：Gymshark",
     "https://en.wikipedia.org/wiki/Gymshark"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "健身人群",
+  "diff": "高",
+  "diffn": "服装品牌需要供应链和库存资金。"
  },
  {
   "id": "c074",
@@ -2787,7 +3079,11 @@ window.CASE_DATA = [
     "维基百科：Glossier",
     "https://en.wikipedia.org/wiki/Glossier"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "年轻女性美妆用户",
+  "diff": "高",
+  "diffn": "品牌需要长期积累内容和产品研发。"
  },
  {
   "id": "c075",
@@ -2824,7 +3120,11 @@ window.CASE_DATA = [
     "维基百科：Death Wish Coffee",
     "https://en.wikipedia.org/wiki/Death_Wish_Coffee"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "咖啡爱好者",
+  "diff": "高",
+  "diffn": "需要稳定的产品和品牌资金。"
  },
  {
   "id": "c076",
@@ -2861,7 +3161,11 @@ window.CASE_DATA = [
     "维基百科：Chobani",
     "https://en.wikipedia.org/wiki/Chobani"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "酸奶消费者",
+  "diff": "高",
+  "diffn": "食品生产要工厂、资金和食品安全资质。"
  },
  {
   "id": "c077",
@@ -2898,7 +3202,11 @@ window.CASE_DATA = [
     "维基百科：Ben & Jerry's",
     "https://en.wikipedia.org/wiki/Ben_%26_Jerry%27s"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "冰淇淋消费者",
+  "diff": "高",
+  "diffn": "食品生产需要资质和门店投入。"
  },
  {
   "id": "c078",
@@ -2934,7 +3242,11 @@ window.CASE_DATA = [
     "维基百科：Innocent Drinks",
     "https://en.wikipedia.org/wiki/Innocent_Drinks"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "健康饮品消费者",
+  "diff": "高",
+  "diffn": "需要食品生产和冷链。"
  },
  {
   "id": "c079",
@@ -2971,7 +3283,11 @@ window.CASE_DATA = [
     "维基百科：Cards Against Humanity",
     "https://en.wikipedia.org/wiki/Cards_Against_Humanity"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "桌游玩家",
+  "diff": "中",
+  "diffn": "桌游类内容可以自己设计，但成本和宣传要控制。"
  },
  {
   "id": "c080",
@@ -3008,7 +3324,11 @@ window.CASE_DATA = [
     "维基百科（中文）：三只松鼠",
     "https://zh.wikipedia.org/wiki/三只松鼠"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "坚果零食消费者",
+  "diff": "高",
+  "diffn": "需要供应链和平台流量投入，竞争激烈。"
  },
  {
   "id": "c081",
@@ -3045,7 +3365,11 @@ window.CASE_DATA = [
     "维基百科（中文）：泡泡玛特",
     "https://zh.wikipedia.org/wiki/泡泡玛特"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "潮玩收藏者",
+  "diff": "高",
+  "diffn": "需要 IP 和供应链资金。"
  },
  {
   "id": "c082",
@@ -3081,7 +3405,11 @@ window.CASE_DATA = [
     "维基百科（中文）：老干妈",
     "https://zh.wikipedia.org/wiki/老干妈"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "辣酱和调味品消费者",
+  "diff": "高",
+  "diffn": "食品生产需要工厂和资质，不适合个人起步。"
  },
  {
   "id": "c083",
@@ -3117,7 +3445,11 @@ window.CASE_DATA = [
     "维基百科：Subway",
     "https://en.wikipedia.org/wiki/Subway_%28restaurant%29"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "快餐消费者",
+  "diff": "高",
+  "diffn": "需要店铺租金、食品安全和加盟管理。"
  },
  {
   "id": "c084",
@@ -3154,7 +3486,11 @@ window.CASE_DATA = [
     "维基百科：Pizza Hut",
     "https://en.wikipedia.org/wiki/Pizza_Hut"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "披萨消费者",
+  "diff": "高",
+  "diffn": "需要店铺和长期品牌，门槛高。"
  },
  {
   "id": "c085",
@@ -3191,7 +3527,11 @@ window.CASE_DATA = [
     "维基百科（中文）：蜜雪冰城",
     "https://zh.wikipedia.org/wiki/蜜雪冰城"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "平价茶饮消费者",
+  "diff": "高",
+  "diffn": "加盟体系需要供应链和食安管理。"
  },
  {
   "id": "c086",
@@ -3228,7 +3568,11 @@ window.CASE_DATA = [
     "维基百科（中文）：海底捞",
     "https://zh.wikipedia.org/wiki/海底捞"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "火锅消费者",
+  "diff": "高",
+  "diffn": "服务体系依赖门店管理，难以一人起步。"
  },
  {
   "id": "c087",
@@ -3265,7 +3609,11 @@ window.CASE_DATA = [
     "维基百科（中文）：喜茶",
     "https://zh.wikipedia.org/wiki/喜茶"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "茶饮消费者",
+  "diff": "高",
+  "diffn": "需要门店、供应链和品牌投入。"
  },
  {
   "id": "c088",
@@ -3302,7 +3650,11 @@ window.CASE_DATA = [
     "维基百科（中文）：李子柒",
     "https://zh.wikipedia.org/wiki/李子柒"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "喜欢乡村生活短视频的观众",
+  "diff": "中",
+  "diffn": "内容门槛不高，但要长期稳定更新并经得起平台规则变化。"
  },
  {
   "id": "c089",
@@ -3339,7 +3691,11 @@ window.CASE_DATA = [
     "维基百科（中文）：papi酱",
     "https://zh.wikipedia.org/wiki/papi酱"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "喜欢吐槽和搞笑短视频的观众",
+  "diff": "中",
+  "diffn": "靠个人魅力和创意，难复制。"
  },
  {
   "id": "c090",
@@ -3376,7 +3732,11 @@ window.CASE_DATA = [
     "维基百科：Andy Weir",
     "https://en.wikipedia.org/wiki/Andy_Weir"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "科幻读者",
+  "diff": "中",
+  "diffn": "连载加自出版可复制，但变现要看内容质量。"
  },
  {
   "id": "c091",
@@ -3412,7 +3772,11 @@ window.CASE_DATA = [
     "维基百科：Hugh Howey",
     "https://en.wikipedia.org/wiki/Hugh_Howey"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "科幻读者",
+  "diff": "中",
+  "diffn": "自出版平台国内也有，但版权和平台规则不同。"
  },
  {
   "id": "c092",
@@ -3449,7 +3813,11 @@ window.CASE_DATA = [
     "Smart Passive Income 官网",
     "https://www.smartpassiveincome.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "想做在线副业的人",
+  "diff": "中",
+  "diffn": "公开收入报告类内容可做，需要长期更新并诚实披露。"
  },
  {
   "id": "c093",
@@ -3485,7 +3853,11 @@ window.CASE_DATA = [
     "维基百科：Exploding Kittens",
     "https://en.wikipedia.org/wiki/Exploding_Kittens"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "桌游和卡牌玩家",
+  "diff": "高",
+  "diffn": "Kickstarter 在国内用不了，国内众筹平台和交付风险需要自己评估。"
  },
  {
   "id": "c094",
@@ -3521,7 +3893,11 @@ window.CASE_DATA = [
     "维基百科：Pebble",
     "https://en.wikipedia.org/wiki/Pebble_%28watch%29"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "智能手表用户",
+  "diff": "高",
+  "diffn": "硬件需要大量资金和供应链，交付风险高。"
  },
  {
   "id": "c095",
@@ -3556,7 +3932,11 @@ window.CASE_DATA = [
     "维基百科：Coolest Cooler",
     "https://en.wikipedia.org/wiki/Coolest_Cooler"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "户外爱好者",
+  "diff": "高",
+  "diffn": "硬件众筹交付风险大，是反面案例。"
  },
  {
   "id": "c096",
@@ -3592,7 +3972,11 @@ window.CASE_DATA = [
     "维基百科：The Million Dollar Homepage",
     "https://en.wikipedia.org/wiki/The_Million_Dollar_Homepage"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想买网页广告的企业",
+  "diff": "高",
+  "diffn": "一次性噱头，难以复制。"
  },
  {
   "id": "c097",
@@ -3628,7 +4012,11 @@ window.CASE_DATA = [
     "维基百科：GitHub",
     "https://en.wikipedia.org/wiki/GitHub"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "软件开发者",
+  "diff": "高",
+  "diffn": "需要产品、团队和长期投入，不适合个人起步。"
  },
  {
   "id": "c098",
@@ -3664,7 +4052,11 @@ window.CASE_DATA = [
     "维基百科：Oculus",
     "https://en.wikipedia.org/wiki/Oculus_VR"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "VR 玩家",
+  "diff": "高",
+  "diffn": "硬件和资本门槛极高。"
  },
  {
   "id": "c099",
@@ -3701,7 +4093,11 @@ window.CASE_DATA = [
     "维基百科：Laravel",
     "https://en.wikipedia.org/wiki/Laravel"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "PHP 开发者",
+  "diff": "高",
+  "diffn": "开源框架需要生态，个人难以复制。"
  },
  {
   "id": "c100",
@@ -3738,7 +4134,11 @@ window.CASE_DATA = [
     "Ahrefs 关于",
     "https://ahrefs.com/about"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "SEO 和内容营销从业者",
+  "diff": "高",
+  "diffn": "要长期抓取和存储海量数据，成本高。"
  },
  {
   "id": "c101",
@@ -3774,7 +4174,11 @@ window.CASE_DATA = [
     "维基百科：Zoho Corporation",
     "https://en.wikipedia.org/wiki/Zoho_Corporation"
    ]
-  ]
+  ],
+  "biz": "流程差",
+  "cust": "中小企业的办公和业务软件",
+  "diff": "高",
+  "diffn": "要做全套产品，不适合个人起步。"
  },
  {
   "id": "c102",
@@ -3811,7 +4215,11 @@ window.CASE_DATA = [
     "维基百科：Squarespace",
     "https://en.wikipedia.org/wiki/Squarespace"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想自己做网站的个人和小商家",
+  "diff": "高",
+  "diffn": "国内建站需备案，平台竞争多。"
  },
  {
   "id": "c103",
@@ -3848,7 +4256,11 @@ window.CASE_DATA = [
     "Moz 关于",
     "https://moz.com/about"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "SEO 从业者",
+  "diff": "中",
+  "diffn": "数据产品门槛高，但教育内容可以做。"
  },
  {
   "id": "c104",
@@ -3885,7 +4297,11 @@ window.CASE_DATA = [
     "维基百科：Dribbble",
     "https://en.wikipedia.org/wiki/Dribbble"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "设计师",
+  "diff": "高",
+  "diffn": "设计师社区需要稳定的内容和运营。"
  },
  {
   "id": "c105",
@@ -3922,7 +4338,11 @@ window.CASE_DATA = [
     "维基百科：You Need a Budget",
     "https://en.wikipedia.org/wiki/You_Need_a_Budget"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "想管好个人预算的人",
+  "diff": "中",
+  "diffn": "方法加软件的组合可借鉴，国内记账软件很多。"
  },
  {
   "id": "c106",
@@ -3959,7 +4379,11 @@ window.CASE_DATA = [
     "维基百科：Daring Fireball",
     "https://en.wikipedia.org/wiki/Daring_Fireball"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "苹果产品用户",
+  "diff": "中",
+  "diffn": "靠个人观点和长期更新，赞助模式可借鉴。"
  },
  {
   "id": "c107",
@@ -3995,7 +4419,11 @@ window.CASE_DATA = [
     "维基百科：Wait But Why",
     "https://en.wikipedia.org/wiki/Wait_But_Why"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "喜欢长篇图文的读者",
+  "diff": "中",
+  "diffn": "靠作者个人表达，难复制。"
  },
  {
   "id": "c108",
@@ -4032,7 +4460,11 @@ window.CASE_DATA = [
     "维基百科：Cuphead",
     "https://en.wikipedia.org/wiki/Cuphead"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "动作游戏玩家",
+  "diff": "高",
+  "diffn": "需要几年开发和美术投入。"
  },
  {
   "id": "c109",
@@ -4069,7 +4501,11 @@ window.CASE_DATA = [
     "维基百科：Dwarf Fortress",
     "https://en.wikipedia.org/wiki/Dwarf_Fortress"
    ]
-  ]
+  ],
+  "biz": "其他",
+  "cust": "硬核游戏玩家",
+  "diff": "高",
+  "diffn": "靠捐赠十几年才有回报，不适合当生意。"
  },
  {
   "id": "c110",
@@ -4106,7 +4542,11 @@ window.CASE_DATA = [
     "阮一峰的网络日志",
     "https://www.ruanyifeng.com/blog/"
    ]
-  ]
+  ],
+  "biz": "信息差",
+  "cust": "中文技术圈的开发者",
+  "diff": "低",
+  "diffn": "一个人坚持写周刊和博客即可起步，难点是长期坚持和积累读者。"
  },
  {
   "id": "c111",
@@ -4143,6 +4583,476 @@ window.CASE_DATA = [
     "Ship 30 for 30 官网",
     "https://www.ship30for30.com/"
    ]
-  ]
+  ],
+  "biz": "职业差",
+  "cust": "想开始写作和做个人品牌的新手",
+  "diff": "中",
+  "diffn": "同期群课程可做，但需要创始人先有可展示的成果。"
+ },
+ {
+  "id": "c112",
+  "name": "SparkToro",
+  "emoji": "🔎",
+  "cat": "软件/SaaS",
+  "tagline": "前 Moz 创始人做的受众研究工具：帮营销人查‘目标人群常去哪些网站、关注谁’",
+  "founder": "Rand Fishkin、Casey Henry",
+  "region": "美国",
+  "year": 2018,
+  "team": "3 人",
+  "rev": null,
+  "rev_note": "创始人在博客里公开过‘2020 年 11 月起每月盈利’和 2023 年向 35 位投资人返还 100% 本金，但没有公布具体收入金额，这里不列数字。",
+  "cost": "创业前期投入较大：据创始人博客，2018–2020 年约花了 70 万美元做出第一版，资金来自 130 万美元的个人天使投资。",
+  "costt": "较大",
+  "ch": [
+   "创始人多年写博客积累的读者",
+   "注册后先免费预览"
+  ],
+  "pricing": "订阅制：官网列出个人档、企业档（企业档标价每月 $150），注册后可先免费预览",
+  "stack": [
+   "自建数据采集与分析"
+  ],
+  "why": "创始人离开自己创办的 SEO 公司后，想做一个能回答‘我的受众在哪里、听谁的’的工具，把原来靠手工和经验判断的受众调研变成产品。",
+  "start": "先募集小额个人投资（不要机构资本），花约两年做第一版，2020 年 4 月上线，同年 11 月起每月盈利。",
+  "acq": "主要靠创始人长期写博客积累的读者和营销圈口碑；他还定期在自己博客上公开复盘（投资结构、盈利和回款），带来持续关注。",
+  "charge": "按月或按年订阅，面向做营销和公关的人。",
+  "fit": "中",
+  "fitn": "‘把零散的受众信息整理成决策产品’的思路值得学，但数据采集成本高、第一版要两年，不是一个人几周能做出来的；国内可先从一个很窄的人群（如某个平台的某类达人）做手工调研报告起步。",
+  "code": "需要",
+  "src": [
+   [
+    "SparkToro 官方博客：第三年回顾（盈利与投资人回款）",
+    "https://sparktoro.com/blog/sparktoro-year-3-retrospective-investor-payback-systemic-challenges-and-v2-on-the-way/"
+   ],
+   [
+    "GeekWire：创始人公开投资结构的报道（2018）",
+    "https://www.geekwire.com/2018/rand-fishkin-avoided-vc-made-investment-documents-public-new-startup-sparktoro/"
+   ]
+  ],
+  "biz": "信息差",
+  "cust": "做营销、公关和内容的人（想知道目标人群在哪里）",
+  "diff": "高",
+  "diffn": "数据采集和第一版开发成本高；个人更现实的做法是先做手工调研报告验证需求。"
+ },
+ {
+  "id": "c113",
+  "name": "Listen Notes",
+  "emoji": "🎧",
+  "cat": "软件/SaaS",
+  "tagline": "一个人做的播客搜索引擎，网站放广告、同时向开发者卖播客数据接口",
+  "founder": "Wenbin Fang",
+  "region": "美国（旧金山）",
+  "year": 2017,
+  "team": "1 人（2019 年 3 月官方博客称只有他一名全职员工）",
+  "rev": null,
+  "rev_note": "创始人明确表示不公开收入数字；2019 年 7 月他在播客里说‘刚刚打平，还没有利润’。这里不列月收入。",
+  "cost": "几乎为零：最早的网站跑在 3 台每月 10 美元的云服务器上；他在博客中说，注册美国公司约 500 美元，之后每年税务和会计约 2000 美元。",
+  "costt": "几乎为零",
+  "ch": [
+   "搜索引擎自然流量（据 2018 年 1 月博客，当时月独立访客约 4 万）",
+   "开发者主动来用接口"
+  ],
+  "pricing": "网站广告 + 面向开发者的接口（有免费额度，超出部分付费）",
+  "stack": [
+   "React",
+   "云服务器"
+  ],
+  "why": "创始人自己爱听播客，但当时的应用只能先订阅整个节目；他想要一个能直接按主题搜单集的搜索引擎。",
+  "start": "2017 年用不到一周做出原型，业余维护了 9 个月；2017 年 9 月起全职做，2017 年 10 月成立公司。后来发现不少开发者想要播客数据，先把接口挂在第三方接口市场上卖，嫌抽成（20%）太高，2019 年 2 月改做自己的接口服务。",
+  "acq": "网站靠搜索流量；接口业务靠需要播客数据的开发者自己找来，他还把做法写成公开博客文章。",
+  "charge": "网站放广告（联盟广告加直接销售），接口有免费额度，超出部分按用量付费。",
+  "fit": "中",
+  "fitn": "‘先做一个小而具体的搜索/数据产品，再卖给需要它的开发者’可以借鉴；但要有一定技术能力，并要处理数据抓取、版权和国内平台的限制。",
+  "code": "需要",
+  "src": [
+   [
+    "Listen Notes 官方博客：我如何‘意外’做成播客接口业务",
+    "https://www.listennotes.com/blog/how-i-accidentally-built-a-podcast-api-business-46/"
+   ],
+   [
+    "Listen Notes 官方博客：做互联网公司‘够用就好’的工程",
+    "https://www.listennotes.com/blog/good-enough-engineering-to-start-an-internet-27/"
+   ],
+   [
+    "Feisworld：对创始人的访谈（2019）",
+    "https://www.feisworld.com/blog/interview-with-wenbin-fang-founder-listennotes"
+   ],
+   [
+    "Software Engineering Daily 采访逐字稿（2019 年 7 月，PDF）",
+    "https://softwareengineeringdaily.com/wp-content/uploads/2019/07/SED866-Listen-Notes.pdf"
+   ]
+  ],
+  "biz": "信息差",
+  "cust": "想找播客的听众，以及需要播客数据的开发者和应用",
+  "diff": "中",
+  "diffn": "技术上一个人可做；难点是中文播客数据来源、版权，以及平台自带搜索的竞争。"
+ },
+ {
+  "id": "c114",
+  "name": "Levels.fyi",
+  "emoji": "💼",
+  "cat": "软件/SaaS",
+  "tagline": "两位工程师用表单和表格众包薪资数据起步，后来卖薪资谈判辅导和企业薪酬对标",
+  "founder": "Zaheer Mohiuddin、Zuhayeer Musa",
+  "region": "美国",
+  "year": 2017,
+  "team": "2 位创始人 + 小团队",
+  "rev": null,
+  "rev_note": "未找到创始人公布的收入金额；2021 年创始人对媒体说公司‘基本从一开始就盈利’，这里不列数字。",
+  "cost": "几乎为零：官方博客说最早用谷歌表单和谷歌表格收集和展示数据，没有自建后端服务器。",
+  "costt": "几乎为零",
+  "ch": [
+   "网站搜索流量",
+   "用户自己填写和分享薪资数据"
+  ],
+  "pricing": "免费查看数据；收费项目包括 1 对 1 薪资谈判辅导、简历点评，以及面向企业的薪酬对标订阅（官网公布了价格档位）",
+  "stack": [
+   "Google Forms",
+   "Google Sheets",
+   "AWS Lambda"
+  ],
+  "why": "创始人发现同一职级在不同公司的薪资和职级对照很不透明，求职者经常被‘压级’却不知道，于是自己收集整理。",
+  "start": "2017 年从朋友那里众包薪资和职级，用谷歌表单收集、谷歌表格存储，网站直接读取生成的数据文件，几年后才换成正式后端；2019 年两位创始人转为全职。",
+  "acq": "免费的薪资数据本身就是流量入口，用户为了查数据主动来，再向其中一部分推荐付费辅导；用户也会贡献新数据，形成‘越多人填越有价值’的循环。",
+  "charge": "对个人收辅导和简历费用，对企业收薪酬对标订阅。",
+  "fit": "中",
+  "fitn": "‘把不透明的行业信息公开整理，再向需要决策的人收费’的思路可借鉴；但薪资数据的真实性和隐私风险高，国内做类似产品要特别注意合规和数据真伪。",
+  "code": "部分",
+  "src": [
+   [
+    "Business Insider：两位工程师帮科技从业者谈薪资（2021）",
+    "https://www.businessinsider.com/two-software-engineers-are-tech-workers-negotiate-better-salaries-2021-9"
+   ],
+   [
+    "Levels.fyi 官方博客：用谷歌表格当后端扩展到百万用户",
+    "https://www.levels.fyi/blog/scaling-to-millions-with-google-sheets.html"
+   ],
+   [
+    "Levels.fyi 官网：关于我们与服务价格",
+    "https://www.levels.fyi/about"
+   ]
+  ],
+  "biz": "信息差",
+  "cust": "想比较薪资和职级的求职者；需要对标薪酬的公司",
+  "diff": "中",
+  "diffn": "起步成本低，但要有足够多真实数据才有价值，国内数据收集和隐私合规更难。"
+ },
+ {
+  "id": "c115",
+  "name": "Audience Ops",
+  "emoji": "✍️",
+  "cat": "知识付费与服务",
+  "tagline": "一个人用‘产品化服务’起步的内容营销外包：固定套餐、按月收费，替软件公司做调研、邮件和博客",
+  "founder": "Brian Casel",
+  "region": "海外",
+  "year": 2015,
+  "team": "从 1 人起步，后来约 25 人",
+  "rev": null,
+  "rev_note": "创始人在 2021 年出售公司的文章里说：几个月内月度经常性收入达到五位数（美元），累计营收‘几百万美元’；没有给出精确月收入，这里不列数字。",
+  "cost": "未公开具体金额；创始人说起初只是想用它在做‘下一个真正的生意’前赚点现金。",
+  "costt": "未公开",
+  "ch": [
+   "创始人自己已有的人脉和读者",
+   "软件产品负责人圈子"
+  ],
+  "pricing": "按月固定套餐的订阅服务",
+  "stack": [
+   "写作与编辑流程",
+   "项目管理工具"
+  ],
+  "why": "创始人此前做过自由职业、模板、SaaS 和课程，发现按小时接单收入不稳；他想试一个固定价格、固定交付内容的模式。",
+  "start": "2015 年针对自己熟悉的‘软件产品负责人、小型咨询公司、产品化服务老板’，把内容营销拆成调研、邮件序列和博客发布三项标准流程，每月收订阅费。",
+  "acq": "先在自己的人脉和读者里找前几位客户，同时公开写自己怎么做，吸引同类客户。",
+  "charge": "每月固定套餐，创始人在公开采访里说客户平均每月约 1000–2000 美元。",
+  "fit": "高",
+  "fitn": "‘把服务拆成固定流程、固定价格、按月收费’最适合一个人起步，难点是稳定交付质量；2021 年创始人卖掉公司时它已有成熟团队和流程，不能照搬早期的增长速度。",
+  "code": "不需要",
+  "src": [
+   [
+    "Startups For The Rest Of Us 播客：创始人讲 Audience Ops 的增长与客单价",
+    "https://www.startupsfortherestofus.com/episodes/episode-474-overcoming-a-40-decline-in-mrr-with-brian-casel"
+   ],
+   [
+    "Brian Casel 博客：介绍 Audience Ops（2015）",
+    "https://briancasel.com/introducing-audience-ops"
+   ],
+   [
+    "Brian Casel 博客：我卖掉了 Audience Ops（2021）",
+    "https://briancasel.com/sold-audience-ops"
+   ]
+  ],
+  "biz": "流程差",
+  "cust": "想做内容营销但没人手的软件公司和小企业",
+  "diff": "低",
+  "diffn": "一个人用现有的写作能力就能起步；难点是找到愿意按月付费的细分客户，并保证交付质量。"
+ },
+ {
+  "id": "c116",
+  "name": "Mailparser 与 Docparser",
+  "emoji": "📨",
+  "cat": "软件/SaaS",
+  "tagline": "把邮件和 PDF 里的信息自动抽取成表格的工具，由一个人做成后卖给收购方",
+  "founder": "Moritz Dausinger",
+  "region": "德国",
+  "year": null,
+  "team": "创始人 + 少量外包/兼职",
+  "rev": null,
+  "rev_note": "未找到创始人公布的月收入金额；他在 Indie Hackers 播客里说过某个阶段 Mailparser 月收入约 6000 美元，那是节点性的口头说法，这里不当作准确数字。",
+  "cost": "几乎为零：先用很简单的原型在 Hacker News 上发布，具体花费未公开。",
+  "costt": "未公开",
+  "ch": [
+   "Hacker News 发布",
+   "自动化平台 Zapier 带来的早期客户线索"
+  ],
+  "pricing": "按月订阅",
+  "stack": [
+   "邮件解析",
+   "PDF 解析"
+  ],
+  "why": "很多中小企业每天要把邮件和 PDF 里的订单、发票信息手工复制到表格或系统里，他想做一个能替代复制粘贴的工具。",
+  "start": "先做一个极简原型，发到 Hacker News；那次发布带来大约 1.1 万次访问，但没有一个付费用户。之后他联系了自动化平台 Zapier 的创始人，对方认为这类需求很多；后来通过 Zapier 带来的线索，他拿到了第一批付费客户。",
+  "acq": "早期主要靠 Zapier 带来的线索；后来把‘邮件解析’和‘PDF 解析’拆成两个产品，让需求更明确的用户直接找到对应工具。",
+  "charge": "按月订阅，按用量或功能分档。创始人在访谈里说过，起步时只期待每月赚到几百美元房租钱。",
+  "fit": "中",
+  "fitn": "‘替企业解决重复的数据录入’需求很稳定；国内可以从发票、订单、报关单等具体单据做起，但要处理中文 OCR 和隐私合规。",
+  "code": "需要",
+  "src": [
+   [
+    "Indie Hackers 播客：Mailparser 与 Docparser 创始人访谈",
+    "https://www.indiehackers.com/podcast/024-moritz-dausinger-of-docparser"
+   ],
+   [
+    "SureSwift Capital：收购方对创始人的访谈（2020）",
+    "https://www.sureswiftcapital.com/blog/interview-with-mailparser-docparser-founder-moritz-dausinger"
+   ]
+  ],
+  "biz": "流程差",
+  "cust": "每天手工录入邮件和 PDF 数据的中小企业和财务/运营人员",
+  "diff": "中",
+  "diffn": "技术和需求都清晰，但中文单据识别要自己做，且企业客户对数据安全要求高。"
+ },
+ {
+  "id": "c117",
+  "name": "Tally",
+  "emoji": "📝",
+  "cat": "软件/SaaS",
+  "tagline": "两人创办的表单工具：基础功能免费，高级功能订阅，公开讲自己每次月收入里程碑",
+  "founder": "Marie Martens、Filip Minev",
+  "region": "海外",
+  "year": 2020,
+  "team": "2 位创始人起步；2024 年称为 3 人团队",
+  "rev": 338000,
+  "rev_note": "创始人自报 · 2025 年 10 月 · 官方博客里的收入里程碑表列出 10 月为 $338K MRR，文章标题称约 $4M ARR（年化）。",
+  "cost": "未公开具体金额；团队说自己是完全自筹、没有融资的小团队。",
+  "costt": "未公开",
+  "ch": [
+   "Product Hunt 发布",
+   "每个里程碑公开复盘",
+   "免费功能带来的口碑"
+  ],
+  "pricing": "基础功能（含无限提交）免费 + 付费订阅（高级功能）",
+  "stack": [
+   "表单构建器"
+  ],
+  "why": "创始人想做一个像写文档一样简单的表单工具，并让无限提交这样的基础功能免费。",
+  "start": "2020 年 9 月开始做，2021 年 3 月做出第一个版本并在 Product Hunt 发布，当月收入约 1000 美元；之后每隔几个月公开一次收入。",
+  "acq": "免费版让人先用起来，用户之间口口相传；他们定期公开自己的收入和做法，也带来关注。",
+  "charge": "订阅制，按功能档位收费。",
+  "fit": "中",
+  "fitn": "‘用一个功能做到极致 + 免费版拉新’值得学；但表单赛道竞争极强，国内还有腾讯问卷、问卷星等成熟产品，个人更适合找一个很窄的垂直场景（如某类商家的预约/登记）。",
+  "code": "需要",
+  "src": [
+   [
+    "Tally 官方博客：我们如何做到 400 万美元 ARR（2025-10）",
+    "https://blog.tally.so/how-we-grew-tally-to-4m-arr-fully-bootstrapped/"
+   ],
+   [
+    "Tally 官方博客：自筹发展到 10 万美元 MRR（2024-03）",
+    "https://blog.tally.so/our-bootstrapped-journey-towards-100k-mrr/"
+   ]
+  ],
+  "biz": "流程差",
+  "cust": "需要收集报名、反馈、订单信息的创业者、创作者和小团队",
+  "diff": "高",
+  "diffn": "国内已有问卷星、腾讯问卷等成熟产品，通用表单很难出头；建议只做垂直场景。"
+ },
+ {
+  "id": "c118",
+  "name": "FeedbackPanda",
+  "emoji": "🐼",
+  "cat": "软件/SaaS",
+  "tagline": "专门帮网上英语老师写学生反馈的工具，两位创始人自筹两年做到月收入 5.5 万美元后出售",
+  "founder": "Arvid Kahl、Danielle Simpson",
+  "region": "德国（据创始人访谈，在柏林）",
+  "year": 2017,
+  "team": "2 位创始人，没有雇员",
+  "rev": 55000,
+  "rev_note": "创始人自报 · 2019 年 10 月 · 其中一位创始人在 Indie Hackers 发帖称产品两年内做到约 $55K MRR，并已出售给 SureSwift Capital（买价未在该帖公开）。",
+  "cost": "未公开具体金额；创始人说全程没有雇佣员工。",
+  "costt": "未公开",
+  "ch": [
+   "老师之间的口碑",
+   "在聊天窗口直接和老师沟通、收集需求"
+  ],
+  "pricing": "按月订阅（面向在线英语老师）",
+  "stack": [
+   "SaaS 网站"
+  ],
+  "why": "联合创始人 Danielle 当时在线教英语，学生是中国家长为孩子报的课；每节课后家长都期待一份学生反馈，十小时课要写约 20 份，非常耗时，所以他们决定把这件事自动化。名字 FeedbackPanda 就来自这件事。",
+  "start": "由 Arvid 写程序、Danielle 以老师身份提需求；他们知道当时有一两万名老师做着同样的工作、有同样的烦恼。把‘写课后反馈’做成模板和工具，约两年做到每月 5.5 万美元的收入，之后出售。",
+  "acq": "靠老师之间的口碑传播，创始人在聊天窗口里直接解答老师的问题。",
+  "charge": "按月订阅，老师自己付费。",
+  "fit": "中",
+  "fitn": "‘盯住一个职业的一个重复动作’是很好的思路，且创始人本人就是目标用户。需要提醒：这个案例的客户群依赖当年的在线英语教学市场，中国对校外培训的监管在 2021 年后收紧，客户群变化很大（编辑判断）；国内可类比到其他有大量重复文书工作的职业，但要先验证他们愿意自己付费。",
+  "code": "需要",
+  "src": [
+   [
+    "Indie Hackers：我们卖掉了自己的 SaaS（创始人，2019-10）",
+    "https://www.indiehackers.com/product/feedbackpanda/we-sold-our-saas--LrUcYNuXXigVCyxMGRJ"
+   ],
+   [
+    "Indie Hackers 播客：Arvid Kahl 访谈（2019-12）",
+    "https://www.indiehackers.com/podcast/140-arvid-kahl-of-feedbackpanda"
+   ]
+  ],
+  "biz": "职业差",
+  "cust": "在线英语老师（想少花时间写学生反馈的人）",
+  "diff": "中",
+  "diffn": "‘垂直职业 + 一个重复动作’可以复制；但要先确认国内该职业人数够多、愿意自己掏钱，原案例的客户群已受政策影响。"
+ },
+ {
+  "id": "c119",
+  "name": "Teachers Pay Teachers",
+  "emoji": "🍎",
+  "cat": "数字产品与模板",
+  "tagline": "老师把自己做的教案和练习卖给其他老师的平台，不少卖家靠它赚到了钱",
+  "founder": "Paul Edelman",
+  "region": "美国",
+  "year": 2006,
+  "team": "平台公司；卖家多是个人老师",
+  "rev": null,
+  "rev_note": "平台没有按月公开单个卖家收入；公司称 2022 年已有超过 300 位卖家累计获利超过 100 万美元（此为公司说法，口径为累计利润，未经审计）。",
+  "cost": "对卖家几乎为零：用自己已有的教学经验和模板文件即可上架。",
+  "costt": "几乎为零",
+  "ch": [
+   "平台内搜索和评价",
+   "卖家在社交媒体上分享"
+  ],
+  "pricing": "卖家自己定价，平台收取费用（具体规则见平台说明）",
+  "stack": [
+   "文档与幻灯片模板",
+   "平台店铺"
+  ],
+  "why": "创始人是前公立学校老师，发现老师们常常自己做教案，却缺少一个能交换和出售这些资料的地方。",
+  "start": "2006 年由一名老师创办，先让老师上传并出售自己的教学资料；2023 年被 IXL Learning 收购。",
+  "acq": "卖家在平台里靠主题和评价获得曝光，也会在社交媒体上分享样张。",
+  "charge": "按单个资料或打包资料收费。",
+  "fit": "中",
+  "fitn": "‘老师卖教学资料’在国内有教育政策和版权风险（尤其是校内教材和付费辅导），不要直接复制；另外，大多数卖家的收入有限，公司 CEO 在报道里也说‘让老师变百万富翁’并不是平台的目标。可借鉴的是‘专业人士把自己的工作成果做成模板卖给同行’的结构，必须是自己原创内容。",
+  "code": "不需要",
+  "src": [
+   [
+    "维基百科：Teachers Pay Teachers",
+    "https://en.wikipedia.org/wiki/Teachers_Pay_Teachers"
+   ],
+   [
+    "Fast Company：那些‘百万富翁老师’在哪里（2022）",
+    "https://www.fastcompany.com/90814522/where-are-all-the-millionaire-teachers"
+   ]
+  ],
+  "biz": "职业差",
+  "cust": "需要现成教案、练习和课堂材料的老师",
+  "diff": "中",
+  "diffn": "‘同行卖模板’可借鉴，但国内教育类内容要特别注意政策、版权和资质。"
+ },
+ {
+  "id": "c120",
+  "name": "135编辑器",
+  "emoji": "🧩",
+  "cat": "软件/SaaS",
+  "tagline": "专门给微信公众号运营者用的在线排版工具：免费基础功能 + 会员版素材和模板",
+  "founder": "邹齐龙（官网载明的公司法人）",
+  "region": "中国（北京）",
+  "year": 2014,
+  "team": "公司团队",
+  "rev": null,
+  "rev_note": "公司没有公开收入数字，这里不列。官网只公开了会员类型（个人会员、企业会员）和功能。",
+  "cost": "未公开。",
+  "costt": "未公开",
+  "ch": [
+   "未公开"
+  ],
+  "pricing": "免费版 + 会员订阅（个人会员、企业会员），会员含更多素材、模板和管理功能",
+  "stack": [
+   "在线图文编辑器",
+   "微信公众号接口"
+  ],
+  "why": "微信公众号发文章时，原生编辑器在排版和素材上不够好用，运营者会反复用同样的样式，需要现成模板。",
+  "start": "2014 年 9 月上线，先提供样式和一键排版，之后陆续增加图片素材、文章网址导入、多平台同步等功能。",
+  "acq": "官网没有公开获客细节；服务对象是做公众号的个人和企业。",
+  "charge": "会员订阅，分个人会员和企业会员；企业会员含多人团队管理、企业发票等权益。",
+  "fit": "高",
+  "fitn": "完全是本土案例；‘为一个平台上的一类运营者做效率工具’可借鉴，但要依赖微信的接口和规则，竞品也多。",
+  "code": "需要",
+  "src": [
+   [
+    "135编辑器官网：品牌介绍与发展历程",
+    "https://www.135editor.com/essences/4337.html"
+   ],
+   [
+    "135编辑器官网：会员服务",
+    "https://www.135editor.com/charge-service.html"
+   ]
+  ],
+  "biz": "职业差",
+  "cust": "公众号运营者（个人、企业新媒体岗位）",
+  "diff": "中",
+  "diffn": "需求明确，但依赖微信规则，且已有多家成熟排版工具，更适合做垂直行业模板。"
+ },
+ {
+  "id": "c121",
+  "name": "Studio Ninja",
+  "emoji": "📸",
+  "cat": "软件/SaaS",
+  "tagline": "摄影师为摄影师做的业务管理软件：管客户、预约、合同、发票和工作流",
+  "founder": "Chris Garbacz、Yuan Wang",
+  "region": "澳大利亚",
+  "year": 2015,
+  "team": "2 位创始人起步",
+  "rev": null,
+  "rev_note": "未找到创始人公布的月收入金额，这里不列数字。官网当前公布的订阅价为每月 $16 / $27 / $40 三档（2026-11-10 核对）。",
+  "cost": "未公开具体金额；创始人公开说第一个版本花了约 7 个月，并发布给了最初的 100 位用户。",
+  "costt": "未公开",
+  "ch": [
+   "自己的播客和面向摄影师的教育内容"
+  ],
+  "pricing": "按月/按年订阅，分三档",
+  "stack": [
+   "网站与手机应用"
+  ],
+  "why": "创始人本人是摄影师，发现同行常被客户沟通、合同、报价和发票这些杂事占满，他想做一个只为摄影师设计的工具。",
+  "start": "2015 年 6 月，他和懂技术的合伙人开始做；约 7 个月后做出第一个版本，发给最初的 100 位用户；上线时遇到不少问题，之后靠反馈迭代。",
+  "acq": "只服务摄影师这一个职业，并做播客和教学内容，让对方觉得‘这个工具是懂我们的人做的’。",
+  "charge": "按月订阅，不同档位对应不同人数和项目数量。",
+  "fit": "中",
+  "fitn": "‘用懂这个职业的人做垂直工具’适合国内婚庆、摄影、培训等服务行业；但这些行业的客户常用微信沟通，要先验证他们愿意为软件付费。",
+  "code": "需要",
+  "src": [
+   [
+    "Studio Ninja 官网：产品与价格",
+    "https://www.studioninja.co/pricing/"
+   ],
+   [
+    "Studio Ninja 播客：创始人讲创业过程（第 58 期）",
+    "https://www.studioninja.co/episode58/"
+   ],
+   [
+    "Future Advisory：对创始人的访谈",
+    "https://futureadvisory.com.au/blog/interview-chris-garbacz-studio-ninja/"
+   ]
+  ],
+  "biz": "职业差",
+  "cust": "摄影师和摄像师（需要管客户、报价、合同和发票的小工作室）",
+  "diff": "中",
+  "diffn": "垂直职业软件可借鉴，但国内摄影行业沟通多在微信，需要先找到愿意付费的小工作室。"
  }
 ];
